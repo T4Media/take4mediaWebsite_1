@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+}
+
+.left-layer {
+  z-index: 1;
+  position: absolute !important;
+  width: 32%;
+  height: 100%;
+  left: -32%;
+  background: #cd6a26;
+  animation: slideIn 0.7s ease-out forwards 0.06s;
+}
+.left-layer--2 {
+  width: 30% !important;
+  left: -30%;
+  background: gray;
+  animation: slideIn 1s ease-out forwards 0.09s;
+}
+
+.left-layer--3 {
+  width: 25% !important;
+  left: -25%;
+  background: #82b23c;
+  animation: slideIn 1.2s ease-out forwards 0.13s;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate3d(2400px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}

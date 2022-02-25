@@ -1,0 +1,29 @@
+.back-enter {
+  transform: translateX(100%) !important;
+}
+.back-enter-active {
+  transform: translateX(0) !important;
+}
+.back-exit {
+  transform: translateX(0) !important;
+}
+.back-exit-active {
+  transform: translate(-100%) !important;
+}
+
+.App {
+  z-index: -5 !important;
+}
+/* next */
+.next-enter {
+  transform: translateX(100%) !important;
+}
+.next-enter-active {
+  transform: translateX(0) !important;
+}
+.next-exit {
+  transform: translateX(0) !important;
+}
+.next-exit-active {
+  transform: translateX(-100%) !important;
+}
