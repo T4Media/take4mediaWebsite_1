@@ -36,8 +36,8 @@ const Home = () => {
 
         <InfoText />
         <Container fluid className="our-work ">
-          <h1>Our work</h1>
-          <Simple />
+          {/* <h1>Our work</h1> */}
+          {/* <Simple /> */}
         </Container>
         <WhoAreWe />
         <TrustedBy />
